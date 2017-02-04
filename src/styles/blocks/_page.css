@@ -2,12 +2,14 @@
   padding: 0;
   margin: 0;
   min-width: 850px;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
   background-color: #000;
   
   &__header {
     padding: 10px;
     text-align: center;
-    border-bottom: 1px solid $root-color;
+    border-bottom: 1px solid $color-root;
   }
   
   &__header-logo {
@@ -19,5 +21,9 @@
     img {
       display: block;
     }
+  }
+  
+  &__main {
+    padding-top: 50px;
   }
 }

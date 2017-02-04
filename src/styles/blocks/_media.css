@@ -1,0 +1,40 @@
+.media {
+  font-size: 0;
+  
+  &--center {
+    text-align: center;
+  }
+
+  &__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    
+    &:hover {
+      .media__icon {
+        fill: #fff;
+      }
+    }
+    
+    &:not(:last-child) {
+      margin-right: 23px;
+    }
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      bottom: -10px;
+      right: -10px;
+    }
+  }
+  
+  &__icon {
+    display: inline-block;
+    vertical-align: top;
+    fill: $color-root;
+    transition: fill 0.3s;
+  }
+}

@@ -1,1 +1,4 @@
-@import 'blocks/title';
+@import 'variables';
+@import 'global';
+@import 'blocks/page';
+@import 'blocks/container';

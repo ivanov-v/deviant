@@ -3,6 +3,11 @@
   width: 930px;
   height: 820px;
   
+  &--crop {
+    overflow: hidden;
+    height: 620px;
+  }
+  
   &__body {
     position: relative;
     z-index: 1;

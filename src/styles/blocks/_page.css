@@ -3,8 +3,14 @@
   margin: 0;
   min-width: 850px;
   font-size: 12px;
+  line-height: 1.5;
   font-family: $font-family-1;
   background-color: #000;
+
+  *::selection {
+      background: $color-root;
+      color: #fff;
+   }
   
   &__header {
     padding: 10px;
@@ -25,5 +31,10 @@
   
   &__main {
     padding-top: 50px;
+  }
+  
+  &__footer {
+    padding-top: 42px;
+    padding-bottom: 42px;
   }
 }

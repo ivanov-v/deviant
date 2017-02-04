@@ -4,7 +4,6 @@
   &__img {
     position: relative;
     z-index: 2;
-    fill: #fa004f;
   }
 
   &__lobe {
@@ -12,6 +11,5 @@
     top: 0;
     right: 0;
     z-index: 1;
-    fill: #ff6697;
   }
 }

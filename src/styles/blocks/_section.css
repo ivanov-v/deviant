@@ -3,12 +3,27 @@
   
   &__inner {
     position: relative;
-    padding-top: 80px;
+    padding-top: 50px;
+  }
+  
+  &__main-content {
+    width: 480px;
+  }
+  
+  &__title {
+    margin-top: 0;
+    margin-bottom: 17px;
+    font-size: 24px;
+    font-family: $font-family-2;
+    letter-spacing: 1.1px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #fff;
   }
   
   &__man {
     position: absolute;
-    top: 80px;
+    top: 0;
     right: -315px;
   }
 }

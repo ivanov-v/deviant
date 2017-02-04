@@ -1,4 +1,8 @@
 .article {
+  &__header {
+    margin-bottom: 55px;
+  }
+  
   &__title {
     margin-top: 0;
     margin-bottom: 22px;

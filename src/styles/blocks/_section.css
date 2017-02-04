@@ -1,0 +1,14 @@
+.section {
+  height: 900px;
+  
+  &__inner {
+    position: relative;
+    padding-top: 80px;
+  }
+  
+  &__man {
+    position: absolute;
+    top: 80px;
+    right: -315px;
+  }
+}

@@ -2,5 +2,8 @@
 @import 'global';
 @import 'blocks/page';
 @import 'blocks/container';
-@import 'blocks/article';
 @import 'blocks/media';
+@import 'blocks/brain';
+@import 'blocks/man';
+@import 'blocks/section';
+@import 'blocks/article';

@@ -176,6 +176,11 @@
           </div>
         </section>
       </section>
+      <section class="article__stats stats">
+        <div class="stats__container container">
+          <h3 class="stats__title">Основные формы девиантного поведения <br>  в современных условиях</h3>
+        </div>
+      </section>
     </article>
   </main>
   <footer class="page__footer">
@@ -207,5 +212,13 @@
       </a>
     </div>
   </footer>
+  
+  <script>
+    document.addEventListener('mousemove', function(evt) {
+      console.log(evt.target);
+      var elem = document.elementFromPoint(evt.clientX, evt.clientY);
+      console.log(elem);
+    });
+  </script>
 </body>
 </html>

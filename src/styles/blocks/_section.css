@@ -41,6 +41,7 @@
     position: absolute;
     bottom: 460px;
     left: 0;
+    z-index: 2;
     width: 495px;
     padding-left: 14px;
     font-family: $font-family-2;

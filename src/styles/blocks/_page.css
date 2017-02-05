@@ -8,14 +8,15 @@
   background-color: #000;
 
   *::selection {
-      background: $color-root;
-      color: #fff;
+    background: $color-root;
+    color: #fff;
    }
   
   &__header {
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid $color-root;
+    margin-bottom: 50px;
   }
   
   &__header-logo {
@@ -24,13 +25,11 @@
     margin-left: auto;
     margin-right: auto;
     
+    
     img {
       display: block;
+      outline: none;
     }
-  }
-  
-  &__main {
-    padding-top: 50px;
   }
   
   &__footer {

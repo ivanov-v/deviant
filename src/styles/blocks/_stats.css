@@ -8,10 +8,10 @@
     font-family: $font-family-2;
     color: #fff;
   }
-}
-
-.lobe {
-  &:hover {
-    stroke: #fff;
+  
+  &__inner {
+    padding-top: 75px;
+    padding-bottom: 140px;
+    text-align: center;
   }
 }
